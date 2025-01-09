@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: notification-service
+
+server:
+  port: 8083
+
+logging:
+  level:
+    ru.geekbrains.notification-service: DEBUG
+
+email:
+  smtp:
+    host: smtp.yandex.com
+    port: 587
+    username: azer.agazade05@yandex.ru
+    password: qwertYpanzer987
+    from: azer.agazade05@yandex.ru
